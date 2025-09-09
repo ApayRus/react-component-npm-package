@@ -3,7 +3,9 @@ import react from '@vitejs/plugin-react'
 import { resolve } from 'node:path'
 
 export default defineConfig({
+	root: 'demo',
 	plugins: [react()],
+	base: '/react-component-npm-package/',
 	resolve: {
 		alias: {
 			'@': resolve(__dirname, './src')
@@ -14,7 +16,7 @@ export default defineConfig({
 		open: true
 	},
 	build: {
-		outDir: 'demo/dist',
+		outDir: 'dist',
 		sourcemap: true
 	}
 })

@@ -47,3 +47,11 @@ Or:
 ```bash
 npm install https://github.com/your-username/your-package-name
 ```
+
+## 6. Deploy the demo
+
+To deploy the demo, you need to run the following command:
+
+```bash
+npm run deploy:demo
+```
