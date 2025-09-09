@@ -55,3 +55,11 @@ To deploy the demo, you need to run the following command:
 ```bash
 npm run deploy:demo
 ```
+
+## Update package version
+
+To update the package version, you need to run the following command:
+
+```bash
+npm version <major | minor | patch>
+```
