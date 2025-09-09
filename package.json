@@ -8,6 +8,7 @@
 	"scripts": {
 		"build": "rollup -c",
 		"build:demo": "vite build demo",
+		"deploy:demo": "npm run build:demo && git checkout demo && cp -r demo/dist/* . && git add . && git commit -m 'Update demo site' && git push origin demo",
 		"dev": "vite demo",
 		"preview": "vite preview demo",
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -25,6 +26,7 @@
 		"@types/react": "^19.1.12",
 		"@types/react-dom": "^19.1.9",
 		"@vitejs/plugin-react": "^4.3.3",
+		"gh-pages": "^6.3.0",
 		"react": "*",
 		"react-dom": "*",
 		"rollup": "^4.50.1",
