@@ -8,6 +8,7 @@
 	"scripts": {
 		"build": "rollup -c",
 		"build:demo": "vite build demo",
+		"deploy:demo": "vite build demo && gh-pages -d demo/dist",
 		"dev": "vite demo",
 		"preview": "vite preview demo",
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -25,6 +26,7 @@
 		"@types/react": "^19.1.12",
 		"@types/react-dom": "^19.1.9",
 		"@vitejs/plugin-react": "^4.3.3",
+		"gh-pages": "^6.3.0",
 		"react": "*",
 		"react-dom": "*",
 		"rollup": "^4.50.1",
@@ -39,5 +41,6 @@
 	},
 	"dependencies": {
 		"tslib": "^2.8.1"
-	}
+	},
+	"homepage": "https://apayrus.github.io/react-component-npm-package"
 }
