@@ -4,12 +4,6 @@ This is a simplest React component package template. With live demo.
 
 It is a counter provider. After installing the package you can change it to any other component. Or create your own components and reuse them in your projects.
 
-# React NPM Package Template
-
-This is a simplest React component package template. With live demo.
-
-It is a counter provider. After installing the package you can change it to any other component. Or create your own components and reuse them in your projects.
-
 ## 1. Clone the repository and install dependencies
 
 To create your own package, you need to clone the repository and install dependencies.

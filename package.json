@@ -8,7 +8,7 @@
 	"scripts": {
 		"build": "rollup -c",
 		"build:demo": "vite build demo",
-		"deploy:demo": "vite build demo && gh-pages -d demo/dist",
+		"deploy:demo": "gh-pages -d demo/dist",
 		"dev": "vite demo",
 		"preview": "vite preview demo",
 		"test": "echo \"Error: no test specified\" && exit 1"
